@@ -1,0 +1,81 @@
+/* componentes */
+
+.header {
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ol {
+  display: flex;
+}
+
+.header ol li {
+  padding-left: 20px;
+}
+
+.header ol li:first-child {
+  padding-left: 0px;
+}
+
+.header ol li a {
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.campo_busca {
+  border-radius: 30px;
+  padding: 10px 20px;
+  background: rgba(255, 249, 240, 0.1);
+  box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+#footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+#footer p {
+    color: white;
+}
+
+main {
+    padding: 30px;
+}
+.container-titulo-categoria {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container-titulo-categoria .titulo-categoria {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* utils */
+.titulo-site {
+    display: flex;
+    color: white ;
+    font-weight: 700;
+    font-size: 70px;
+    align-items: center;
+}
+
+.titulo-site span {
+    color: #FF382CC7;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.titulo-site .container_subtitulo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}

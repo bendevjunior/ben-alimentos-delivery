@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #24252A;
+}
+
+input {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol {
+    list-style: none;
+}
